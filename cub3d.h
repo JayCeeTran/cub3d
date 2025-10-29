@@ -27,7 +27,7 @@ typedef struct s_map{
 } t_map;
 
 typedef struct s_data{
-	mlx_t	*mlx;
+	void	*mlx;
 	t_images *w_imgs;
 	t_player *player;	
 
